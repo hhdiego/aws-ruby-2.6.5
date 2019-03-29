@@ -7,6 +7,6 @@ RUN apt-get update && apt-get install -y --no-install-recommends apt-utils
 RUN apt-get update && apt-get install -y python2.7 python-pip
 
 # INSTALL AWS-CLI
-RUN pip3 install awsebcli --upgrade
-RUN pip3 install awscli --upgrade
+RUN pip install awsebcli --upgrade
+RUN pip install awscli --upgrade
 
