@@ -1,4 +1,4 @@
-FROM ruby:2.5.3
+FROM ruby:2.6.3
 
 # APT-GET UTILS
 RUN apt-get update && apt-get install -y --no-install-recommends apt-utils
